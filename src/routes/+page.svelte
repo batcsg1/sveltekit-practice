@@ -1,5 +1,6 @@
 <script>
     import Footer from '$lib/Footer.svelte';
+    
     import Peter from '$lib/img/peter.jpeg';
 </script>
 
