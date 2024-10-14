@@ -1,6 +1,6 @@
 <script>
     import Footer from '$lib/Footer.svelte';
-    
+    import Header from '$lib/Header.svelte';
     import Peter from '$lib/img/peter.jpeg';
 </script>
 
@@ -8,7 +8,7 @@
 <h1>Welcome to SvelteKit</h1>
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 
-
+<Header></Header>
 
 <div>
     <h2>Frameworks are the bomb, bro!</h2>
