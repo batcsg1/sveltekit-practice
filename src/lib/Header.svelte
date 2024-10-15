@@ -41,9 +41,7 @@
     }
     ul li a{
         text-decoration: none; 
-        font-family: Arial, Helvetica, sans-serif;
         color: #f4f1f1;
-        text-shadow: 2px 2px 6px rgb(1, 77, 55);
         font-weight: bold;
         background-color: rgb(2, 75, 57);
         border-radius: 0.5em;

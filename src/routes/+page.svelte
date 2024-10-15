@@ -1,7 +1,8 @@
 <script>
     import Footer from '$lib/Footer.svelte';
     import Header from '$lib/Header.svelte';
-    import Peter from '$lib/img/peter.jpeg';
+    // import Peter from '$lib/img/peter.jpeg';
+    import Main from '$lib/Main.svelte';
 </script>
 
 <!-- <h1>Welcome to SvelteKit</h1>
@@ -9,18 +10,15 @@
 
 <Header headingTitle = "[chatgpt.com]"></Header>
 
-<div>
-    <h2>Frameworks are the bomb, bro!</h2>
-</div>
+<Main mainTitle = "[Welcome to ChatGPT]"></Main>
 
-<Footer year={2025} img ={Peter} alt="Peter"/>
+<Footer year={2025}/>
 
 <style>
     :global(*){
-        font-family: sans-serif;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     /* :global(body){
         padding: 4em;
-    } */
-   
+    } */  
 </style>
