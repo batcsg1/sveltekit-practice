@@ -12,13 +12,10 @@
 
 <Main mainTitle = "[Welcome to ChatGPT]"></Main>
 
-<Footer year={2025}/>
+<Footer/>
 
 <style>
     :global(*){
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-    /* :global(body){
-        padding: 4em;
-    } */  
 </style>
