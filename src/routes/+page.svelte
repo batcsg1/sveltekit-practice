@@ -19,8 +19,8 @@
     :global(*){
         font-family: sans-serif;
     }
-    :global(body){
+    /* :global(body){
         padding: 4em;
-    }
+    } */
    
 </style>

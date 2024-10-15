@@ -11,12 +11,11 @@
 </div>
 <style>
     p{
-        background-color: chartreuse;
-        color: red;
+        background-color: rgb(0, 61, 49);
+        color: rgb(248, 244, 244);
         padding: 2em;
         font-weight: bold;
         text-align: center;
         font-size: large;
-        border: 5px dotted dodgerblue;
     }
 </style>
