@@ -11,14 +11,6 @@
 <p>ChatGPT &copy; 2006 </p>
 
 <style>
-    /* p{
-        background-color: rgb(0, 61, 49);
-        color: rgb(248, 244, 244);
-        padding: 2em;
-        font-weight: bold;
-        text-align: center;
-        font-size: large;
-    } */
     p{
         font-size: 0.8em;
         text-align: center;

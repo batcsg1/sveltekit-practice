@@ -1,18 +1,17 @@
-<script>    
-    import Footer from "$lib/Footer.svelte";
+<script>
     import Header from "$lib/Header.svelte";
-    import Main from "$lib/Main.svelte";
+    import Footer from "$lib/Footer.svelte";
 </script>
 
-<slot />
-<Header headingTitle = "[chatgpt.com]"/>
+<Header headingTitle = "chatgpt.com"></Header>
 
-<Main mainTitle = "[Welcome to ChatGPT]"></Main>
+<slot/> <!--Imports stuff from main page (e.g the header)-->
 
-<Footer/>
+<Footer></Footer>
 
 <style>
-   
+    :global(*){
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }   
 </style>
-
 
