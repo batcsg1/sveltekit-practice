@@ -6,13 +6,6 @@
 <header>    
     <img src="{Logo}" alt="logo" width=100px height=100px>
     <h1>{headingTitle}</h1>
-    <nav>
-        <ul>
-            <li><a href="/">Login</a></li>
-            <li><a href='/register'>Register</a></li>
-            <li><a href='/about'>About</a></li>
-        </ul>
-    </nav>
 </header>
 
 <style>
