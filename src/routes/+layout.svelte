@@ -1,9 +1,18 @@
-<script>
-    import Navigation from "$lib/Navigation.svelte";
+<script>    
+    import Footer from "$lib/Footer.svelte";
+    import Header from "$lib/Header.svelte";
+    import Main from "$lib/Main.svelte";
 </script>
 
-<Navigation></Navigation>
-
 <slot />
+<Header headingTitle = "[chatgpt.com]"/>
+
+<Main mainTitle = "[Welcome to ChatGPT]"></Main>
+
+<Footer/>
+
+<style>
+   
+</style>
 
 
