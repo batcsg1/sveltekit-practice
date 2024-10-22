@@ -1,8 +1,12 @@
 <script>
-    
+    import Header from "$lib/Header.svelte";  
 </script>
   
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, id corrupti. Officia, in. Officia nisi quaerat illo maxime veritatis commodi numquam quam corrupti accusantium? Quas labore laudantium quibusdam perferendis harum!</p>
+<Header headingTitle = "About"></Header>
+
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore sed, nemo unde eaque magnam nulla dolor dicta necessitatibus? Tenetur, laborum similique exercitationem libero quod ad maiores necessitatibus ipsum a voluptas.</p>
+
+
 
 
   
