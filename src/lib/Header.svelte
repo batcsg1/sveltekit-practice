@@ -5,12 +5,12 @@
 
 <header>    
     <img src="{Logo}" alt="logo" width=100px height=100px>
-    <h1>{headingTitle}</h1>
+    <h2>{headingTitle}</h2>
     <nav>
         <ul>
             <li><a href="/">Login</a></li>
-            <li><a href='/about'>Register</a></li>
-            <li><a href='/contact'>About</a></li>
+            <li><a href='/register'>Register</a></li>
+            <li><a href='/about'>About</a></li>
         </ul>
     </nav>
 </header>
@@ -19,31 +19,40 @@
     header{
         display: flex;
         justify-content: center;
-        background: rgb(2,135,4);
-        background: linear-gradient(90deg, rgb(9, 201, 12) 0%, rgb(122, 247, 126) 30%, rgb(148, 253, 192) 87%);
-        color: rgb(235, 241, 231);
-        text-shadow: 1px 1px 3px rgb(4, 48, 0);
-    }
-    
-    h1{
-        display: grid;
         align-items: center;
+        background: rgb(2,135,4);
+        background: linear-gradient(90deg, rgb(1, 173, 116) 0%, rgb(29, 236, 194) 30%, rgb(148, 253, 221) 87%);
+        color: rgb(235, 241, 231);
+        text-shadow: 1px 1px 3px rgb(0, 46, 48);
+    }
+    img{
+        height: 50px;
+        width: 50px;
+        padding-right: 1em;
     }
     ul{
-        display: flex;
-        justify-content: space-around;
+        display: flex;   
         list-style: none;
-        font-size: 1.5em;
+        font-size: 0.8em;
     }
     ul li{     
-        padding-inline: 3em;
-        padding-block: 1em;  
+        padding-inline: 1em;
+        
     }
     ul li a{
         text-decoration: none; 
-        font-family: Arial, Helvetica, sans-serif;
-        color: #f8f7f7;
-        text-shadow: 3px 1px 3px black;
+        color: #f4f1f1;
+        font-weight: bold;
+        background-color: rgb(2, 75, 57);
+        border-radius: 0.5em;
+        padding: 0.4em;
+        padding-inline: 0.8em;
+        border: 1px dotted rgb(148, 239, 219);
+    }
+    ul li a:hover{
+        background-color: white;
+        color: #333;
+        border: 1px ridge black;
     }
   
 
